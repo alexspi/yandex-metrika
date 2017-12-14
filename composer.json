@@ -2,7 +2,7 @@
   "name": "alexusmai/yandex-metrika",
   "description": "Laravel 5 Yandex Metrika",
   "keywords": ["laravel", "yandex", "metrika"],
-  "homepage": "https://github.com/alexusami/yandex-metrika",
+  "homepage": "https://github.com/alexspi/yandex-metrika",
   "license": "MIT",
   "authors": [
     {
@@ -11,12 +11,12 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/support": "5.2.*|5.3.*|5.4.*"
+    "php": ">=5.6.*",
+    "illuminate/support": "5.2.*|5.3.*|5.4.*|5.5.*"
    },
   "autoload": {
     "psr-4": {
-      "Alexusmai\\YandexMetrika\\": "src"
+      "Alexspi\\YandexMetrika\\": "src"
     }
   }
 }
