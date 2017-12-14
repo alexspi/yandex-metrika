@@ -1,4 +1,4 @@
-<?php namespace Alexusmai\YandexMetrika;
+<?php namespace Alexspi\YandexMetrika;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -26,7 +26,7 @@ class YandexMetrikaServiceProvider extends ServiceProvider {
 
         $this->app->bind('yandexMetrika', function(){
 
-            return new \Alexusmai\YandexMetrika\YandexMetrika;
+            return new \Alexspi\YandexMetrika\YandexMetrika;
         });
     }
 
