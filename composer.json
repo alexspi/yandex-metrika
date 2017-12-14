@@ -1,13 +1,13 @@
 {
-  "name": "alexusmai/yandex-metrika",
+  "name": "alexspi/yandex-metrika",
   "description": "Laravel 5 Yandex Metrika",
   "keywords": ["laravel", "yandex", "metrika"],
   "homepage": "https://github.com/alexspi/yandex-metrika",
   "license": "MIT",
   "authors": [
     {
-      "name": "Alex",
-      "email": "alexusmai@gmail.com"
+      "name": "Alexspi",
+      "email": ""
     }
   ],
   "require": {
