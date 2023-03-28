@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\YandexMetrika;
+namespace Alexspi\YandexMetrika;
 
 use Carbon\Carbon;
 
