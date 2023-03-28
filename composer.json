@@ -1,0 +1,33 @@
+{
+  "name": "alexspi/yandex-metrika",
+  "description": "Laravel - Yandex Metrika",
+  "keywords": ["laravel", "yandex", "metrika"],
+  "homepage": "https://github.com/alexspi/yandex-metrika",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": "^7.4.0",
+    "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alexspi\\YandexMetrika\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Alexspi\\YandexMetrika\\YandexMetrikaServiceProvider"
+      ],
+      "aliases": {
+        "YandexMetrika": "Alexspi\\YandexMetrika\\YandexMetrikaFacade"
+      }
+    }
+  }
+}
